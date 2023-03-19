@@ -1,0 +1,123 @@
+<!-- Code By Shriniwas - 08/03/2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name as per Aadhar</label>
+        <div>
+            <input type="text" name="myName" id="name" required>
+        </div>
+        <br>
+        <label for="phonenumber">Phone Number</label>
+        <div>
+            <input type="number" name="myPhoneNumber" id="phonenumber" pattern="[0-9]{10}" required>
+        </div>
+        <br>
+        <label for="pan">PAN Number</label>
+        <div>
+            <input type="text" name="mypan" id="pan" style="text-transform: uppercase;" required>
+        </div>
+        <br>
+        <label for="mail">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="mail" required>
+        </div>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <div>
+            <input type="date" name="myDOB" id="dob" required>
+        </div>
+        <br>
+        <label for="occupation">Occupation</label>
+        <select name="myOccupation" id="occupation">
+            <option value="level1">Select</option>
+            <option value="level2">Salaried</option>
+            <option value="level3">Self Employee</option>
+        </select>
+        <br>
+        <br>
+        <label for="marital-status">Marital Status</label>
+        <select name="myMaritalStatus" id="marital-status">
+            <option value="level1">Select</option>
+            <option value="level2">Married</option>
+            <option value="level3">Single</option>
+        </select>
+        <br>
+        <br>
+        <label for="gender">Gender</label>
+        <select name="myGender" id="gender">
+            <option value="level1">Select</option>
+            <option value="level2">Male</option>
+            <option value="level3">Female</option>
+            <option value="level4">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="address">Current Residency Address</label>
+        <div>
+            <textarea name="myResidencyAddress" id="residency-address" cols="50" rows="2"></textarea>
+        </div>
+        <br>
+        <label for="pincode">Pincode</label>
+        <div>
+            <input type="number" name="myPinCode" id="pincode" required>
+        </div>
+        <br>
+        <label for="companyname">Company Name</label>
+        <div>
+            <input type="text" name="myCompanyName" id="companyname" required>
+        </div>
+        <br>
+        <div>
+            <label for="present-experience">Work Experience</label>
+            <input type="number" name="myExperience" id="present-experience" placeholder="In Present Company" required>
+        </div>
+        <br>
+        <div>
+            <label for="total-experience">Work Experience</label>
+            <input type="number" name="myExperience" id="total-experience" placeholder="Total" required>
+        </div>
+        <br>
+        <label for="income">Monthly Income</label>
+        <div>
+            <input type="number" name="myIncome" id="income" required>
+        </div>
+        <br>
+        <label for="bank">Bank Name</label>
+        <div>
+            <input type="text" name="myBank" id="bank" required>
+        </div>
+        <br>
+        <label for="company-address">Company Address</label>
+        <div>
+            <textarea name="myCompanyAddress" id="company-address" cols="50" rows="2"></textarea>
+        </div>
+        <br>
+        <label for="m-name">Mother Name</label>
+        <input type="text" name="myMotherName" id="m-name">
+        <br>
+        <br>
+        <label for="f-name">Father Name</label>
+        <input type="text" name="myFatherName" id="f-name">
+        <br>
+        <p>Card Delivery Address ?</p>
+        <label for="home">Home</label><input type="radio" name="delivery" id="home">
+        <label for="company">Company</label><input type="radio" name="delivery" id="company">
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+    <br>
+    <footer>
+        Copyright &copy; 2023 Shriniwas Mhetre
+    </footer>
+</body>
+</html>
